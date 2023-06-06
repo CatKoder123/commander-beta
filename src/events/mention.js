@@ -12,7 +12,7 @@ module.exports = {
             .setColor("Blue")
             .setThumbnail(client.user.avatarURL({ dynamic: true }))
             .setDescription(
-              `Hello, I am **${client.user.username}**. A discord bot based on [open source Commander](https://github.com/Antinity/Commander) project, which is a powerful Discord bot written in JavaScript and Node.js, and Discord.js v14 library, created by the YouTuber Antinity. This bot is designed to enhance your Discord server experience by providing a wide range of features and commands for managing, moderating, and customizing your server. Use \`/help\` command to get a list of all commands.`)
+              `Hello, I am **${client.user.username}**. A discord bot based on [open source Commander](https://github.com/Antinity/Commander) project, Being Maintained By [CatCoder123#3666](https://github.com/catkoder123) and [Antinity#0001](https://github.com/Antinity), which is a powerful Discord bot written in JavaScript and Node.js, and Discord.js v14 library, created by the [YouTuber Antinity](https://youtube.com/@antinityfx) and [YouTuber CatCoder123](https://youtube.com/@catcoder123). Use \`/help\` command to get a list of all commands.`)
               .addFields({ name: `Total Commands`, value: `${client.commands.size}`, inline: true },
               { name: `Total Servers`, value: `${client.guilds.cache.size}`, inline: true },
               { name: `Total Members`, value: `${client.users.cache.size}`, inline: true },)
